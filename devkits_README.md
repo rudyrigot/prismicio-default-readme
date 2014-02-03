@@ -29,7 +29,7 @@ Thanks to LANGUAGE's syntax, this kit contains some mild differences and syntast
 
 ### Changelog
 
-Need to see what changed, or to upgrade your kit? Check out [this kit's changelog](changelog.md).
+Need to see what changed, or to upgrade your kit? We keep our changelog on [this repository's "Releases" tab]().
 
 ### Contribute to the kit
 
