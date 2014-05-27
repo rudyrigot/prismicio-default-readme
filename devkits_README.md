@@ -18,14 +18,24 @@ Also on our [prismic.io developer's portal](https://developers.prismic.io/), on 
  * get a thorough introduction of [how to use prismic.io kits](https://developers.prismic.io/documentation/UjBe8bGIJ3EKtgBZ/api-documentation#kits-and-helpers), including this one.
  * see [what else is available for LANGUAGE](https://developers.prismic.io): starter projects, examples, ...
 
+### Using the kit
 
 #### Kit's detailed documentation
 
 You can find the documentation of the LANGUAGE kit as comments within the kit's source code.
  *(Feel free to talk to us about generated docs for LANGUAGE.)*
 
+#### Specific LANGUAGE kit syntax
+
 Thanks to LANGUAGE's syntax, this kit contains some mild differences and syntastic sugar over the section of our documentation that tells you [how to use prismic.io kits](https://developers.prismic.io/documentation/UjBe8bGIJ3EKtgBZ/api-documentation#kits-and-helpers) in general (which you should read first). The differences are listed here:
  * 
+
+Knowing all that, here is typical code written with the Ruby kit:
+
+ * A typical API object instantiation looks like this: `Prismic.api(url, opts)`
+ * A typical querying looks like this: `api.form('everything').query('[[:d = at(document.type, "product")]]').ref(ref).submit()`
+ * A typical fragment manipulation looks like this: `doc.getImageView('article.image', 'icon').url`
+ * A typical fragment serialization to HTML looks like this: `doc.getStructuredText('article.body').asHtml(linkResolver)`
 
 ### Changelog
 

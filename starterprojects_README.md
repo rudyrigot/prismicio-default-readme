@@ -28,6 +28,13 @@ You can find out [how to get started with prismic.io](https://developers.prismic
 
 You'll find more information about how to use the development kit included in this starter project, by reading [its README file]().
 
+### Specifics and helpers of the Rails starter project
+
+There are several places in this project where you'll be able to find helpful helpers of many kinds. You may want to learn about them in order to know your starter project better, or to take those that you think might be useful to you in order to integrate prismic.io in an existing app.
+
+ * in `filename`:
+   * description
+
 ### Contribute to the starter project
 
 Contribution is open to all developer levels, read our "[Contribute to the official kits](https://developers.prismic.io/documentation/UszOeAEAANUlwFpp/contribute-to-the-official-kits)" documentation to learn more.
